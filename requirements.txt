@@ -22,6 +22,6 @@ oyaml
 pandas>=1.1
 scikit-learn
 shap>=0.42.1
-Werkzeug
+Werkzeug<=2.0.3
 waitress
 explainerdashboard
