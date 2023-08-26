@@ -20,7 +20,7 @@ jupyter_dash>=0.4.1
 numpy<=1.24.4
 oyaml
 pandas>=1.1
-scikit-learn>=1.1
+scikit-learn
 shap>=0.42.1
 waitress
 explainerdashboard
