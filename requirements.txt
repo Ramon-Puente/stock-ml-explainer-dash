@@ -23,4 +23,5 @@ scikit-learn
 shap>=0.42.1
 waitress
 Werkzeug<=2.0.3
+dtreeviz
 explainerdashboard
