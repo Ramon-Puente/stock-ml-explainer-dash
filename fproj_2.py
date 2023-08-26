@@ -461,7 +461,7 @@ performance(X_uis_regr_test,y_uis_regr_test,y_uis_regr_pred,regr_uis,model_type=
 
 
 explainer = ClassifierExplainer(clf_lyts, X_lyts_clf_test, y_lyts_clf_test)
-db = ExplainerDashboard(explainer, title="Cool Title", shap_interaction=False)
+db = ExplainerDashboard(explainer, title="Cool Title")
 db.to_yaml("dashboard.yaml", explainerfile="explainer.joblib", dump_explainer=True)
 
 db = ExplainerDashboard.from_config("dashboard.yaml")
