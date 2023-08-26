@@ -10,7 +10,7 @@ click
 dash-auth
 dash-bootstrap-components<1
 dash>=2.10.1
-dtreeviz>=2.1
+dtreeviz
 flask-simplelogin
 Flask-WTF<0.16.0,>=0.15.1
 graphviz>=0.18.2
@@ -23,5 +23,4 @@ scikit-learn
 shap>=0.42.1
 waitress
 Werkzeug<=2.0.3
-dtreeviz
 explainerdashboard
