@@ -1,5 +1,4 @@
-﻿Flask
-matplotlib
+﻿matplotlib
 plotly
 plotly-express
 PyYAML==6.0.1
@@ -12,7 +11,7 @@ dash-auth
 dash-bootstrap-components<1
 dash>=2.10.1
 dtreeviz>=2.1
-flask_simplelogin
+flask-simplelogin==0.1.2
 Flask-WTF>=1.1
 graphviz>=0.18.2
 joblib
