@@ -11,8 +11,8 @@ dash-auth
 dash-bootstrap-components<1
 dash>=2.10.1
 dtreeviz>=2.1
-flask-simplelogin==0.1.2
-Flask-WTF>=1.1
+flask-simplelogin
+Flask-WTF
 graphviz>=0.18.2
 joblib
 jupyter_dash>=0.4.1
@@ -22,5 +22,5 @@ pandas>=1.1
 scikit-learn
 shap>=0.42.1
 waitress
-Werkzeug<=2.0.3
+Werkzeug
 explainerdashboard
