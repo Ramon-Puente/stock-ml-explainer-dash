@@ -27,6 +27,7 @@ flask-simplelogin==0.1.2
 Flask-WTF==1.1.1
 fonttools==4.42.1
 graphviz==0.20.1
+gunicorn==21.2.0
 idna==3.4
 iniconfig==2.0.0
 ipykernel==6.25.1
@@ -50,12 +51,10 @@ oyaml==1.0
 packaging==23.1
 pandas==2.0.3
 parso==0.8.3
-patsy==0.5.3
 pickleshare==0.7.5
 Pillow==10.0.0
 platformdirs==3.10.0
 plotly==5.16.1
-plotly-express==0.4.1
 pluggy==1.2.0
 prompt-toolkit==3.0.39
 psutil==5.9.5
@@ -76,10 +75,8 @@ seaborn==0.12.2
 shap==0.42.1
 simfin==0.9.2
 six==1.16.0
-sklearn==0.0.post7
 slicer==0.0.7
 stack-data==0.6.2
-statsmodels==0.14.0
 tenacity==8.2.3
 threadpoolctl==3.2.0
 tomli==2.0.1
@@ -92,4 +89,3 @@ urllib3==2.0.4
 waitress==2.1.2
 wcwidth==0.2.6
 Werkzeug==2.2.3
-WTForms==3.0.1
