@@ -1,7 +1,7 @@
 ﻿Flask==2.2.5
 flask-simplelogin
 Flask-WTF==1.1.1
-matplotlib==3.7.2
+matplotlib
 numpy==1.24.4
 pandas==2.0.3
 plotly==5.16.1
@@ -24,4 +24,4 @@ joblib
 jupyter_dash>=0.4.1
 oyaml
 waitress
-explainerdashboard==0.4.3
+explainerdashboard
