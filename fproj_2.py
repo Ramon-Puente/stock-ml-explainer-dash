@@ -41,7 +41,7 @@ from explainerdashboard import ExplainerDashboard
 
 Importing data using the **SimFin API** -- a robust stock analytics & data API (simfin.com)
 """
-url = 'https://github.com/Ramon-Puente/stock-ml-explainer-dash/blob/main/stock_data'
+url = 'https://raw.githubusercontent.com/Ramon-Puente/stock-ml-explainer-dash/main/stock_data'
 df = pd.read_csv(url,delimiter=',',on_bad_lines='skip')
 df_main_clean = df.set_index(['Ticker','Date'])
 
